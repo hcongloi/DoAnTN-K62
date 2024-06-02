@@ -80,7 +80,7 @@ class Starter(QMainWindow):
 
         labels = [
             "Tổng số lượng", "Số người dự đoán phù hợp", "Số người dự đoán không phù hợp",
-            "Độ chính xác (Precision)","Độ nhớ (Recall)", "F1-score", "Thời gian huấn luyện (s)", "Thời gian dự đoán (s)"
+            "Độ chính xác (Precision)","Độ bao phủ (Recall)", "Hệ số F1 (F1-score)", "Thời gian huấn luyện (s)", "Thời gian dự đoán (s)"
         ]
 
 
@@ -182,9 +182,9 @@ class Starter(QMainWindow):
             ("Tổng số lượng", total_users),
             ("Số người dự đoán phù hợp", correct_predictions),
             ("Số người dự đoán không phù hợp", incorrect_predictions),
-            ("Độ chính xác (Precision)", f"{precision:.2f}"),
-            ("Độ nhớ (Recall)", f"{recall:.2f}"),
-            ("F1-score", f"{f1:.2f}"),
+            ("Độ chính xác (Precision)", f"{precision:.4f}"),
+            ("Độ bao phủ (Recall)", f"{recall:.4f}"),
+            ("Hệ số F1 F1-score)", f"{f1:.4f}"),
             ("Thời gian huấn luyện (s)", f"{training_time:.4f}"),
             ("Thời gian dự đoán (s)", f"{prediction_time:.4f}")
         ]
