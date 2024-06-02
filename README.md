@@ -11,6 +11,7 @@
 .
 ├── README.md                                                     # File hướng dẫn cài đặt README 
 ├── BAO-CAO-DATN-HUYNHCONGLOI-62133105-FINAL                      # File Word báo cáo đồ án tốt nghiệp
+├── BÁO CÁO ĐỒ ÁN TỐT NGHIỆP                     		  # File Power Point báo cáo đồ án tốt nghiệp
 ├── fb_friends_data                                               # File dữ liệu người dùng của mạng xã hội Facebook
 ├── Kết quả của các mô hình phân lớp                              # File Excel kết quả của các mô hình phân 
 └── main 
