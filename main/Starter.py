@@ -136,7 +136,7 @@ class Starter(QMainWindow):
             training_time = model.training_time
             prediction_time = model.prediction_time
             self.display_results(predictions)
-            self.display_comparison(len(X), len(predictions), len(y) - len(predictions), precision, recall, f1, training_time, prediction_time)
+            self.display_comparison(len(X_test), len(predictions), len(y_test) - len(predictions), precision, recall, f1, training_time, prediction_time)
             self.friends_found = True
             QMessageBox.information(self, "Thông báo", f"Đã tìm thấy {len(predictions)} người dùng phù hợp để kết bạn.")
         else:
